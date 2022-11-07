@@ -26,3 +26,9 @@
 ### 23  39'31   (ospedale militare 2)
 ### 24  40'15   (ospedale militare 3)
 ### 25  45'20   (ospedale militare 4 - vari frammenti)
+
+### macrofragments 
+-   1 - 9
+-   10 - 18
+-   19 - 22
+-   22 - 25
