@@ -69,13 +69,13 @@
 #X obj 676 461 vs.pan~;
 #X obj 741 462 vs.pan~;
 #X obj 477 373 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 800 1;
 #X obj 614 407 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 3600 1;
+-1 -1 3400 1;
 #X obj 676 377 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 9000 1;
+-1 -1 11700 1;
 #X obj 765 429 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 12700 1;
+-1 -1 7100 1;
 #X obj 217 295 vcf~ 100;
 #X obj 567 251 vcf~ 100;
 #X obj 822 326 vcf~ 100;
@@ -84,6 +84,9 @@
 #X obj 567 276 *~ 10;
 #X obj 821 351 *~ 10;
 #X obj 245 675 *~ 10;
+#X obj 464 246 r speed;
+#X floatatom 987 61 5 0 0 0 - - -;
+#X obj 987 85 s speed;
 #X connect 0 0 2 0;
 #X connect 1 0 4 0;
 #X connect 1 0 6 0;
@@ -185,3 +188,8 @@
 #X connect 78 0 66 0;
 #X connect 79 0 67 0;
 #X connect 80 0 68 0;
+#X connect 81 0 60 0;
+#X connect 81 0 63 0;
+#X connect 81 0 62 0;
+#X connect 81 0 61 0;
+#X connect 82 0 83 0;
